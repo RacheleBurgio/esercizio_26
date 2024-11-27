@@ -6,8 +6,11 @@ import MyAlert from './components/Alert'
 import horror from './data/horror.json'
 import BookList from './components/BookList'
 import romance from './data/romance.json'
+import fantasy from './data/fantasy.json'
+import history from './data/history.json'
+import scifi from './data/scifi.json'
 
-const books = [...horror, ...romance]
+const books = [...horror, ...romance, ...fantasy, ...history, ...scifi]
 
 function App() {
   return (
