@@ -19,7 +19,6 @@ function App() {
         <MyAlert />
       </div>
       <div className="container">
-        <div className="row"></div>
         <BookList books={books} />
       </div>
       <footer>
